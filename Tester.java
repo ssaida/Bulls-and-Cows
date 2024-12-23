@@ -5,6 +5,10 @@ public class Tester {
 		Scanner in = new Scanner(System.in);
 		Number comp = new Number();
 		boolean win = false;
+		for(int i=0;i<10;i++) {
+			System.out.println(comp._number);
+		}
+		
 		
 		do {
 			System.out.println("Enter your guess:");
